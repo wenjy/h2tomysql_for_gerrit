@@ -48,7 +48,7 @@ public class GerritDatabaseConverter {
 	
 	public void transferData() {
 		String[] dataTables = new String[] {
-				"account_diff_preferences",
+				// "account_diff_preferences",
 				"account_external_ids",
 				"account_group_by_id",
 				"account_group_by_id_aud",
@@ -56,19 +56,19 @@ public class GerritDatabaseConverter {
 				"account_group_members_audit",
 				"account_group_names",
 				"account_groups",
-				"account_patch_reviews",
+				// "account_patch_reviews",
 				"account_project_watches",
-				"account_ssh_keys",
+				// "account_ssh_keys",
 				"accounts",
 				"change_messages",
 				"changes",
 				"patch_comments",
-				"patch_set_ancestors",
+				// "patch_set_ancestors",
 				"patch_set_approvals",
 				"patch_sets",
 				"schema_version",
-				"starred_changes",
-				"submodule_subscriptions",
+				// "starred_changes",
+				// "submodule_subscriptions",
 				"system_config"
 		};
 		try {

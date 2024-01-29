@@ -152,10 +152,10 @@ public class MySQLDatabaseSession implements IDatabaseSession {
 					.execute(String
 							.format("update account_groups set group_uuid='%s', owner_group_uuid='%s' where name='Administrators'",
 									uuidOfAdmin, uuidOfAdmin));
-			fix_action
+			/* fix_action
 				.execute(String
 						.format("update account_groups set owner_group_uuid='%s'",
-								uuidOfAdmin));
+								uuidOfAdmin)); */
 		}
 		fix_action.close();
 	}
